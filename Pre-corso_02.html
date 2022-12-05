@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Stream</title>
+
+</head>
+
+<!-- -------------------------------- STYLE -------------------------------- -->
+
+<style>
+.id {
+	display: flex;
+	flex-direction: row;
+	font-family:Helvetica;
+	justify-content: center;
+	align-items: stretch;
+
+}
+
+h1 {
+
+	color: #021e03;
+	background-color: rgb(227, 227, 31);
+	font-size: 100px;
+}
+
+div {
+	margin: 10px;
+	
+}
+
+input {
+	
+	border-color: #5d945f;
+	background-color: #cef7cf;
+	
+}
+
+legend {
+	font-weight: bolder;
+	background-color: #a3bca4;
+	
+}
+
+.checkb {
+	margin: 20px;
+	
+}
+
+button {
+	margin-left: 20px;
+	margin-top: 30px;
+	background-color: #9aae9a;
+	
+}
+
+.block2 {
+	margin-top: 70px;
+
+}
+
+.block3 {
+	margin-top: 10px;
+	margin-left: auto;
+
+}
+</style>
+
+
+<body>
+
+<div class="id">
+
+<!-- -------------------------------- TITLE -------------------------------- -->
+
+	<h1>Sign In!</h1>
+
+	<!-- ---------------------------- FORM + ALERT ----------------------------- -->
+
+	<form onsubmit="alert('Registrazione Inviata!')">
+		
+		<!-- -------------------------------- INPUTS --------------------------------- -->
+
+	<div class="block2">
+
+		<div>
+			<input type="text" placeholder="Nome"/>
+		</div>
+	
+		<div>
+			<input type="text" placeholder="Cognome"/>
+		</div>
+	
+		<div>
+			<input type="email" placeholder="E-mail"/>
+		</div>
+	
+		<div>
+			<input type="password" placeholder="Password"/>
+		</div>
+		
+		<div>
+			<input type="date"/>
+		</div>
+		
+		<div>
+			<input type="number" placeholder="Numero di telefono"/>
+		</div>
+
+	</div>	
+
+<!-- ------------------------------ CHECK BOX ------------------------------ -->
+
+<div class="block3">
+
+
+		<div class="checkb">
+			<legend>Cosa ti piace ascoltare di più?</legend>
+
+			<div>
+				<input type="checkbox" id="Pop" name="Pop"/>
+					<label for="Pop">Pop</label>
+			</div>
+	
+			<div>
+				<input type="checkbox" id="Rock" name="Rock"/>
+					<label for="Pop">Rock</label>
+			</div>
+	
+			<div>
+				<input type="checkbox" id="Reggae" name="Reggae"/>
+					<label for="Pop">Reggae</label>
+			</div>
+	
+			<div>
+				<input type="checkbox" id="Techno" name="Techno"/>
+					<label for="Pop">Techno</label>
+			</div>
+
+		</div>
+
+<!-- ---------------------------- ACCETTAZIONE ----------------------------- -->
+
+		<div>
+			<input type="radio" id="termsandcon" name="termsandcon"/>
+				<label for="Pop">Accettazione dei termini e condizioni</label>
+		</div>
+
+	</div>
+
+	<!-- ------------------------------- BUTTON -------------------------------- -->
+
+		<button type="submit">Invia Registrazione</button>
+
+	</form>
+
+	
+</div>
+
+
+</body>
+</html>
