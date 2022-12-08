@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+
+h1 {
+ font-family: 'Prata', serif;
+ font-size: 64px;
+ font-weight: 400;
+ margin-bottom: 0;
+}
+
+h3 {
+ font-family: 'Prata', serif;
+ font-size: 24px;
+ font-weight: 400;
+ margin-top: 0;
+}
+
+h4 {
+text-align: center;
+}
+
+h6 {
+ padding: 22px;
+ margin-bottom: 0;
+ margin-top: 56px;
+ color: white;
+ border-radius: 6px;
+}
+
+p {
+font-weight: 600;
+font-style: italic;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+li {
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 22px;
+border-bottom: 1px;
+border-color: #dfdfdf;
+}
+
+body {
+margin:auto;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+footer {
+background-color: rgb(20, 20, 20);
+padding: 16px;
+}
+
+
+a:link {
+ border-bottom: 1px;
+ text-decoration: none;
+}
+
+a:visited {
+ text-decoration:none;
+ text-decoration-color: #dfdfdf;
+}
+
+.main-section {
+padding: 20px;
+}
+
+.image-container {
+ height: 500px;
+ background-size: contain;
+ background-position-x: center;
+ background-repeat: no-repeat;
+}
+
+#Home {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 18px;
+ font-weight: 400;
+ color: white;
+}
+
+
+
