@@ -15,19 +15,82 @@
         font-family: 'Roboto', sans-serif;
       }
 
+      .Video-name:link {
+        font-weight: 600;
+        color: black;
+        text-decoration: none;
+      }
+
+      .Video-name:visited {
+        font-weight: 600;
+        color: rgb(49, 49, 49);
+        text-decoration: none;
+      }
+
+      .account:link {
+        font-weight: 400;
+        color: rgb(0, 175, 244);
+        text-decoration: none;
+      }
+
+      .account:visited {
+        color: rgb(0, 147, 245);
+        text-decoration: none;
+      }
+
+
       .main {
         width: 100%;
       }
 
       .topbar {
         height: 8vh;
+        width: 90%;
+        margin-left: 100px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: fixed;
+        background-color: white;
+      }
+
+      .topbar2 {
+        margin-top: 50px;
+        height: 8vh;
+        margin-left: 100px;;
+        font-weight: 400;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        background-color: white;
+      }
+
+      .topbar2 p {
+        font-weight: 600;
+        font-size: .9em;
+        background-color: rgb(229, 229, 229);
+        padding: 7px;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-radius: 8px;
+      }
+
+      
+      .sidebar {
+        background-color: white;
+        position: fixed;
+        height: 100%;
       }
 
       .content {
         height: 100%;
+        margin-top: 130px;
+        margin-left: 100px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around ;
       }
 
       .icon {
@@ -41,10 +104,11 @@
       }
 
       .icon ion-icon {
-        font-size: 2em;
+        font-size: 1.8em;
       }
 
       .icon p {
+        font-size: .8em;
         margin: 0;
       }
 
@@ -88,6 +152,63 @@
         display: flex;
         align-items: center;
       }
+      
+      .preview{
+        display: flex;
+        flex-direction: column ;
+        align-items: flex-start;
+        align-self: flex-start
+
+      }
+
+      .thumbnail{
+        width:320px;
+        border-radius: 15px;
+        cursor: pointer;
+        
+      }
+      
+      .icon-title{
+        display: flex;
+        flex-direction: row;
+
+      }
+
+      .thumbnail-logo{
+        height: 40px;
+        margin-top: 2vh;
+        cursor: pointer;
+      }
+
+      .Video-name {
+        font-size: 1em;
+        padding-top: 12px;
+        max-width: 270px;
+      }
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left:10px;
+      }
+
+      .description p{
+        font-size: .8em;
+        padding-top: 2px;
+      }
+
+      .account {
+        font-size: .8em;
+        margin-top: 5px;
+        color: rgb(0, 155, 198);
+      }
+
+      .visualizzazioni{
+        font-size: .8em;
+        margin-top: 2px
+      }
+
     </style>
   </head>
   <body>
@@ -132,7 +253,104 @@
           </div>
         </div>
       </div>
-      <div class="content">CONTENT</div>
+      <div class="topbar2">
+        <p>Tutto</p>
+        <p>Cucina</p>
+        <p>Mixes</p>
+        <p>Viaggi</p>
+        <p>Lezioni</p>
+        <p>Concerti</p>
+        <p>Tech</p>
+        <p>Playlist</p>
+        <p>Bossa Nova</p>
+        <p>Sports</p>
+        <p>Sports</p>
+
+      </div>
+      <div class="content">
+        <div class="preview">
+          <img class="thumbnail" src="assets/epicode_thumb.png" alt="ep-thumb" />
+          <div class="icon-title">
+            <img class="thumbnail-logo" src="assets/epicode-logo.png" alt="ep-logo" />
+
+            <div class="description">
+            <a class="Video-name"href="https://www.youtube.com/watch?v=Jb8UMmrBlC8">King Gizzard & The Lizard Wizard - Full Performance (Live on KEXP)</a>
+            <a class="account"href="https://www.youtube.com/@kexp">KEXP</a>
+            <p class="visualizzazioni">93255 visualizzazioni</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview">
+          <img class="thumbnail" src="assets/epicode_thumb.png" alt="ep-thumb" />
+          <div class="icon-title">
+            <img class="thumbnail-logo" src="assets/epicode-logo.png" alt="ep-logo" />
+
+            <div class="description">
+            <a class="Video-name"href="https://www.youtube.com/watch?v=UcTj3JBoGkE&t=711s">Parcels - Full Performance (Live on KEXP)</a>
+            <a class="account"href="https://www.youtube.com/@kexp">KEXP</a>
+            <p class="visualizzazioni">1203 visualizzazioni</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview">
+          <img class="thumbnail" src="assets/epicode_thumb.png" alt="ep-thumb" />
+          <div class="icon-title">
+            <img class="thumbnail-logo" src="assets/epicode-logo.png" alt="ep-logo" />
+
+            <div class="description">
+            <a class="Video-name"href="https://www.youtube.com/watch?v=vj77WwnCdHw">Arctic Monkeys - Full Performance (Live on KEXP)</a>
+            <a class="account"href="https://www.youtube.com/@kexp">KEXP</a>
+            <p class="visualizzazioni">500845 visualizzazioni</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview">
+          <img class="thumbnail" src="assets/epicode_thumb.png" alt="ep-thumb" />
+          <div class="icon-title">
+            <img class="thumbnail-logo" src="assets/epicode-logo.png" alt="ep-logo" />
+
+            <div class="description">
+            <a class="Video-name"href="https://www.youtube.com/watch?v=rvQQFVSTVps&t=326s">Metronomy - Full Performance (Live on KEXP)</a>
+            <a class="account"href="https://www.youtube.com/@kexp">KEXP</a>
+            <p class="visualizzazioni">105562 visualizzazioni</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview">
+          <img class="thumbnail" src="assets/epicode_thumb.png" alt="ep-thumb" />
+          <div class="icon-title">
+            <img class="thumbnail-logo" src="assets/epicode-logo.png" alt="ep-logo" />
+
+            <div class="description">
+            <a class="Video-name"href="https://www.youtube.com/watch?v=giEnkiRHJ9Y">Las Ligas Menores - Full Performance (Live on KEXP at Home)</a>
+            <a class="account"href="https://www.youtube.com/@kexp">KEXP</a>
+            <p class="visualizzazioni">6546 visualizzazioni</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview">
+          <img class="thumbnail" src="assets/epicode_thumb.png" alt="ep-thumb" />
+          <div class="icon-title">
+            <img class="thumbnail-logo" src="assets/epicode-logo.png" alt="ep-logo" />
+
+            <div class="description">
+            <a class="Video-name"href="https://www.youtube.com/watch?v=6647smeduGI">Alvays - Full Performance (live on KEXP)</a>
+            <a class="account"href="https://www.youtube.com/@kexp">KEXP</a>
+            <p class="visualizzazioni">6546 visualizzazioni</p>
+            </div>
+          </div>
+        </div>
+
+        
+
+
+        </div>
+      </div>
     </div>
     <script
       type="module"
